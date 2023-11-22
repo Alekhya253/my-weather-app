@@ -1,0 +1,149 @@
+.title{
+  color:rgb(12, 12, 112) ;
+    font-family: Karla;
+    font-size:5rem;
+    font-weight: bold;
+    margin: 0 !important;
+  padding: 0 !important;
+  }
+  .title-container{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+.current-weather{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    color: rgb(182, 76, 68);
+    width: 80%;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+}
+.other-data-card{
+    font-size: 1.1rem;
+}
+.data{
+  color: rgb(2, 1, 39)  !important;
+    font-size: 1.3rem;
+}
+.temp, .other-data-card {
+    flex: 0 0 calc(40% - 20px); 
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgba(189, 209, 208, 0.4);
+    text-align: center;
+    color: rgb(3, 2, 66);
+  }
+  
+  @media (max-width: 768px) {
+    .temp, .other-data-card {
+      flex: 0 0 calc(100% - 20px);
+    }
+  }
+.temp {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+  }
+  
+  .temp .name {
+    display: flex;
+    align-items: center;
+  }
+  
+ .name span {
+    margin-right: 10px;
+    font-size: larger;
+  }
+  
+  .name img {
+    vertical-align: middle;
+  }
+  
+  .temp h1 {
+    margin: 10px 0;
+  }
+  
+  .temp p {
+    margin: 5px 0;
+  }
+  .day-desc{
+    color: #464242;
+  }
+.day-container {
+  background-color:inherit;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    
+  }
+  .curr-place{
+    font-size: 2.3rem!important;
+  }
+  .curr-temp{
+    font-size: 5rem;
+    color: rgb(12, 12, 112)  !important;
+  }
+  .day-temp{
+    color: rgb(24, 23, 68)  !important;
+  }
+  .curr-desc{
+    font-size: 1.5rem;
+  }
+  .day-card {
+    flex: 0 0 200px;
+    background-color: rgba(189, 209, 208, 0.4);
+    padding: 15px;
+    border-radius: 8px;
+    color: rgb(3, 2, 66);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+    white-space: normal;
+    margin: 10px;
+  }
+
+  .day-card span{
+    font-size: 1.4rem;
+  }
+  .day-card p {
+    font-size: 1.2rem;
+  }
+
+  
+  
+input {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 0;
+    width: 200px;
+    border: 0;
+    background-color:rgba(189, 209, 208, 0.4);
+  }
+
+  button {
+    padding: 10px 15px;
+    margin: 5px;
+    background-color:  rgba(4, 116, 114, 0.7) ;
+    color: rgb(252, 251, 253); 
+    border: none; 
+    font-weight: bold;
+    border-radius: 5px; 
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color:  rgba(48, 190, 188, 0.7);
+  }
+  
